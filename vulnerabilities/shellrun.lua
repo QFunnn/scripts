@@ -1,5 +1,6 @@
 -- README:
 -- A vulnerability that allows execution of any code on the user's computer using Lua script for uc.zone(Deadlock).
+-- Video of PoC: https://youtu.be/vug43VwxWYc
 -- Current status: fixed
 
 --[[
