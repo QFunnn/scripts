@@ -1,7 +1,7 @@
 --[[
     ~ match info changer • hero stats
     ~ t.me/windguild & spring.ceo
-	~ preview: blob: https://i.imgur.com/IX4Pv9s.png
+	~ preview: https://i.imgur.com/IX4Pv9s.png
 ]]
 
 local hero_stats = {}
