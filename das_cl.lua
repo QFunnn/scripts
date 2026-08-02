@@ -3,7 +3,10 @@
      ~ сделано пацанами для пацанов
 	 ~ by jon.kaus(internetfanat) & rou(internetenemy)
      ~ t.me/windguild ~ 🏃🏼 Ромбит пидораска беги
+     ~ showcase: https://youtu.be/Id2JCT5p6dQ
 ]]
+
+--todo: refactor
 
 local chess = {}
 
@@ -12,7 +15,7 @@ local a = function(...)
 end
 
 pcall = function()
-	return "🏃🏼"
+	return "🏃🏼 БЕГИ ПИДОРАСКА БЕГИ"
 end
 
 -- @note: scripts/npc/npc_items_custom.txt.
