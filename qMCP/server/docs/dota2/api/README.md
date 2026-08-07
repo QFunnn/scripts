@@ -1,0 +1,93 @@
+# Umbrella Dota 2 API v2.0
+
+Reference pages mirrored from https://uczone.gitbook.io/api-v2.0.
+
+- [Abilities](Abilities.md) — Table to work with ability list.
+- [Ability](Ability.md) — Table to work with `CAbility`.
+- [Angle](Angle.md) — Angle metatable
+- [Bottle](Bottle.md) — Table to work with `CBottle`.
+- [Callbacks](Callbacks.md) — Callbacks for lua Scripts should return a table with the following functions. If the table contains one of the functions below, it will be registered as a callback and will be called at the appropriate time.
+- [Camp](Camp.md) — Table to work with `CCamp`.**`CCamp`** extends **`CEntity`**
+- [Camps](Camps.md) — Table to work with list of neutral spawners.
+- [CFirstTab](CFirstTab.md) — CFirstTab metatable
+- [Chat](Chat.md) — Table to work with chat.
+- [chronos](chronos.md) — High-resolution monotonic timer module. Loaded as a require-able library: `local chronos = require('chronos')`.
+- [CMenuBind](CMenuBind.md) — CMenuBind metatable.
+- [CMenuButton](CMenuButton.md) — CMenuButton metatable.
+- [CMenuColorPicker](CMenuColorPicker.md) — CMenuColorPicker metatable.
+- [CMenuColorPickerAttachment](CMenuColorPickerAttachment.md) — CMenuColorPickerAttachment metatable.
+- [CMenuComboBox](CMenuComboBox.md) — CMenuComboBox metatable.
+- [CMenuGearAttachment](CMenuGearAttachment.md) — CMenuGearAttachment metatable.
+- [CMenuGroup](CMenuGroup.md) — CMenuGroup metatable
+- [CMenuInputBox](CMenuInputBox.md) — CMenuInputBox metatable.
+- [CMenuLabel](CMenuLabel.md) — CMenuLabel metatable.
+- [CMenuMultiComboBox](CMenuMultiComboBox.md) — CMenuMultiComboBox metatable.
+- [CMenuMultiSelect](CMenuMultiSelect.md) — CMenuMultiSelect metatable.
+- [CMenuSliderFloat](CMenuSliderFloat.md) — CMenuSliderFloat metatable.
+- [CMenuSliderInt](CMenuSliderInt.md) — CMenuSliderInt metatable.
+- [CMenuSwitch](CMenuSwitch.md) — CMenuSwitch metatable.
+- [Color](Color.md) — Color metatable
+- [Config](Config.md) — Table to work with configs that are stored in the `configs` folder with the `.ini` extention.
+- [ConVar](ConVar.md) — Table to work with `CConVars`.\
+- [Courier](Courier.md) — Table to work with `CCourier`.**`CCourier`** extends **`CNPC`**
+- [Couriers](Couriers.md) — Table to work with courier list.
+- [CSecondTab](CSecondTab.md) — CSecondTab metatable
+- [CTabSection](CTabSection.md) — CTabSection metatable
+- [CThirdTab](CThirdTab.md) — CThirdTab metatable
+- [CustomEntities](CustomEntities.md) — Table to work with specific abilities.
+- [DrunkenBrawler](DrunkenBrawler.md) — Table to work with `CDrunkenBrawler`.**`CDrunkenBrawler`** extends **`CAbility`**
+- [Engine](Engine.md) — Table to work with game engine.
+- [Entities](Entities.md) — Table to work with entity list.
+- [Entity](Entity.md) — Table to work with `CEntity`.
+- [Enums](Enums.md)
+- [Event](Event.md) — Table to work with game events.
+- [FogOfWar](FogOfWar.md) — Table to work with FogOfWar API.
+- [GameLocalizer](GameLocalizer.md) — Table to work with game localization.\
+- [GameRules](GameRules.md) — Table to work with GameRules.
+- [GC](GC.md) — Table to work with Game Coordinator (GC).
+- [GlobalVars](GlobalVars.md) — Talbe to work with game's global variables.
+- [GridNav](GridNav.md) — Table to work with in-game navigation API.
+- [Hero](Hero.md) — Table to work with `CHero`.
+- [Heroes](Heroes.md) — Table to work with hero list.
+- [HTTP](HTTP.md) — Table to work with HTTP requests.
+- [Humanizer](Humanizer.md) — Table to work with humanizer.
+- [Input](Input.md) — Table to work with input system.
+- [Item](Item.md) — Table to work with `CItem`.
+- [LinearProjectiles](LinearProjectiles.md) — Table to work linear projectiles.
+- [Localizer](Localizer.md) — Table to work with cheat localizer.
+- [Log](Log.md) — Table to log.
+- [Logger](Logger.md) — Named logger with per-level methods and per-logger level filtering. Messages are written to the debug log as \[LEVEL] \[LoggerName] message.
+- [Menu](Menu.md) — Table to work with Menu.
+- [MiniMap](MiniMap.md) — Table to work with in-game minimap.
+- [Modifier](Modifier.md) — Table to work with `CModifier`. You can get modifiers from `NPC.GetModifier`function.
+- [Modifiers](Modifiers.md) — Table to work with list of modifiers.
+- [NetChannel](NetChannel.md) — Table to work with game's net channel.
+- [NPC](NPC.md) — Table to work with `CNPC`. **`CNPC`** extends **`CEntity`**
+- [NPCs](NPCs.md) — Table to work with NPC list.
+- [Panorama](Panorama.md) — Table to work with Dota Panorama system.
+- [Particle](Particle.md) — Table to work with particles.
+- [PhysicalItem](PhysicalItem.md) — Table to work with `CPhysicalItem`.**`CPhysicalItem`** extends **`CEntity`**
+- [PhysicalItems](PhysicalItems.md) — Table to work with list of phisical items.
+- [Player](Player.md) — Table to work with `CPlayer`. **`CPlayer`** extends **`CEntity`**
+- [Players](Players.md) — Table to work with player list.
+- [PowerTreads](PowerTreads.md) — Table to work with `CPowerTreads`.**`CTower`** extends **`CItem`**
+- [protobuf](protobuf.md) — Protobuf encoding/decoding module for working with Dota 2 network messages. Loaded as a require-able library: `local protobuf = require('protobuf')`.
+- [Render](Render.md) — Table to work with render v2.
+- [Renderer](Renderer.md) — Table to work with renderer.
+- [Rune](Rune.md) — Table to work with `CRune`.**`CRune`** extends **`CEntity`**
+- [Runes](Runes.md) — Table to work with rune list.
+- [Steam](Steam.md) — Table to with Steam API functions
+- [StringBuilder](StringBuilder.md) — Efficient string builder for incremental string construction. Backed by a single pre-allocated C++ buffer. Avoids O(n^2) cost of repeated Lua string concatenation.
+- [table](table.md) — Extensions for the built-in Lua `table` library.
+- [TempTrees](TempTrees.md) — Table to work with list of temp trees.
+- [TierToken](TierToken.md) — Table to work with `CTierToken`.**`CTierToken`** extends **`CItem`**
+- [Tower](Tower.md) — Table to work with `CTower`.**`CTower`** extends **`CNPC`**
+- [Towers](Towers.md) — Table to work with tower list.
+- [Tree](Tree.md) — Table to work with `CTree`.**`CTree`** extends **`CEntity`**
+- [Trees](Trees.md) — Table to work with list of trees.
+- [UIPanel](UIPanel.md) — UIPanel metatable
+- [Vambrace](Vambrace.md) — Table to work with `CVambrace`.**`CVambrace`** extends **`CItem`**
+- [Vec2](Vec2.md) — Vec2 metatable
+- [Vector](Vector.md) — Vector metatable
+- [Vertex](Vertex.md) — Vertex metatable
+- [World](World.md) — Table containing functions for interacting with the world.
