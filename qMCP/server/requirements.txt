@@ -1,0 +1,6 @@
+fastmcp
+flask
+jsonschema
+mcp
+pydantic
+werkzeug

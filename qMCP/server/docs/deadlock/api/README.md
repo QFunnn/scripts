@@ -1,0 +1,62 @@
+# Umbrella Deadlock API
+
+Reference stubs: signatures, types and comments exactly as LuaLS sees them.
+
+- [ability](ability.md) — Game ability or weapon entity.
+- [Angle](Angle.md) — Angle metatable
+- [callback](callback.md) — Game/engine event callbacks: `:set(fn)` / `:unset(fn)`.
+- [CFirstTab](CFirstTab.md) — CFirstTab metatable
+- [chronos](chronos.md) — High-resolution monotonic timer.
+- [CMenuBind](CMenuBind.md) — CMenuBind metatable.
+- [CMenuButton](CMenuButton.md) — CMenuButton metatable.
+- [CMenuColorPicker](CMenuColorPicker.md) — CMenuColorPicker metatable.
+- [CMenuColorPickerAttachment](CMenuColorPickerAttachment.md) — CMenuColorPickerAttachment metatable.
+- [CMenuComboBox](CMenuComboBox.md) — CMenuComboBox metatable.
+- [CMenuGearAttachment](CMenuGearAttachment.md) — CMenuGearAttachment metatable.
+- [CMenuGroup](CMenuGroup.md) — CMenuGroup metatable
+- [CMenuInputBox](CMenuInputBox.md) — CMenuInputBox metatable.
+- [CMenuLabel](CMenuLabel.md) — CMenuLabel metatable.
+- [CMenuMultiComboBox](CMenuMultiComboBox.md) — CMenuMultiComboBox metatable.
+- [CMenuMultiSelect](CMenuMultiSelect.md) — CMenuMultiSelect metatable.
+- [CMenuSliderFloat](CMenuSliderFloat.md) — CMenuSliderFloat metatable.
+- [CMenuSliderInt](CMenuSliderInt.md) — CMenuSliderInt metatable.
+- [CMenuSwitch](CMenuSwitch.md) — CMenuSwitch metatable.
+- [Color](Color.md) — Color metatable
+- [convar](convar.md) — Console variable accessor. Indexed by cvar name string (e.g., `convar.sv_cheats`).
+- [CPanoramaImageName](CPanoramaImageName.md) — Panorama image name handle.
+- [CSecondTab](CSecondTab.md) — CSecondTab metatable
+- [CTabSection](CTabSection.md) — CTabSection metatable
+- [CThirdTab](CThirdTab.md) — CThirdTab metatable
+- [CUserCmd](CUserCmd.md) — User input command sent to the server each tick.
+- [db](db.md) — Persistent key-value store. Automatically saved to `db.json` on save or every 5 minutes.
+- [entity](entity.md) — Base game entity backed by a raw memory pointer.
+- [entity_list](entity_list.md) — Entity list query interface.
+- [enums](enums.md)
+- [game_rules](game_rules.md) — Game rules interface.
+- [GameLocalizer](GameLocalizer.md) — Table to work with game localization.
+- [gc](gc.md) — Game Coordinator (GC) interface.
+- [gloabl_ctx](gloabl_ctx.md) — Cross-script shared state (session-only, lost on reload).
+- [global_vars](global_vars.md) — Engine timing and frame information.
+- [hero_lib](hero_lib.md) — Hero-specific utilities: state checks, target finding, ability/item handling, projectile prediction, movement simulation, and UI settings.
+- [http](http.md) — Fluent builder for HTTP requests with method chaining support
+- [input](input.md) — Raw input interface.
+- [Localizer](Localizer.md) — Table to work with cheat localizer.
+- [Menu](Menu.md) — Table to work with Menu.
+- [meta](meta.md) — Meta tracker API for hero/item statistics.
+- [modifier](modifier.md) — Game modifier (buff/debuff). Inherits schema field access from raw_struct.
+- [net_channel](net_channel.md) — Network channel interface.
+- [new_ui_lib](new_ui_lib.md) — A gear-attached menu widget wrapper with chainable methods.
+- [Notification](Notification.md) — Creates and displays a notification.
+- [panorama](panorama.md) — Finds a panel by its ID.
+- [player_pawn](player_pawn.md) — Player character pawn entity. Represents the in-world pawn controlled by a player.
+- [protobuf](protobuf.md) — Google Protobuf encoding/decoding library.
+- [raw_struct](raw_struct.md) — Base class for schema-backed game objects.
+- [render_lib](render_lib.md) — Render library wrapping the raw Render API with caching, animations, and a hitbox/button system.
+- [RenderV2](RenderV2.md) — Table to work with render v2.
+- [sound](sound.md) — Soundevent registry lookup helpers.
+- [TargetSelection](TargetSelection.md) — Target selection and scoring system.
+- [trace](trace.md) — Trace result object returned by ray/hull cast functions.
+- [utils](utils.md) — Utility functions for camera, targeting, geometry, and map operations.
+- [Vec2](Vec2.md) — Vec2 metatable
+- [Vector](Vector.md) — Vector metatable
+- [Vertex](Vertex.md) — Vertex for use with `Render.TexturedPoly`.
